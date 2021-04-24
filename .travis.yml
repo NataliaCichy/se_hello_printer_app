@@ -1,0 +1,7 @@
+launguage: python
+python:
+  - "3.6"
+install:
+  - made deps
+script:
+  - make test
