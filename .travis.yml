@@ -2,7 +2,7 @@ launguage: python
 python:
   - "3.6"
 install:
-  - made deps
+  - make deps
 script:
   - make lint
   - make test
