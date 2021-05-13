@@ -1,4 +1,4 @@
-launguage: python
+launguage: python3
 python:
   - "3.6"
 install:
