@@ -23,6 +23,9 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 - Uruchamianie applikacji:
 
   ```
+  #za pomoca Makefile
+  $ make run
+
   # jako zwykły program
   $ python main.py
 
@@ -33,6 +36,9 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 - Uruchamianie testów (see: http://doc.pytest.org/en/latest/capture.html):
 
   ```
+  #za pomoca Makefile:
+  $ make test
+
   $ PYTHONPATH=. py.test
   $ PYTHONPATH=. py.test --verbose -s
   ```
@@ -47,7 +53,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ```
   ...
 
-  # aktywacja 
+  # aktywacja
   $ source .venv/bin/activate
   ```
 
