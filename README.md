@@ -1,5 +1,11 @@
 # Simple Flask App
 
+  [![Build Status](https://travis-ci.org/NataliaCichy/se_hello_printer_app.svg?branch=master)](https://travis-ci.org/NataliaCichy/se_hello_printer_app)
+
+  https://app.statuscake.com/button/index.php?Track=5961427&Days=1&Design=1
+
+
+
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
