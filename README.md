@@ -90,3 +90,17 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ yum install -y docker-ce
   $ systemctl start docker
   ```
+
+  - StatusCake:
+    ```
+  #uzupelnic notatki
+  ```
+
+  - Badge:
+    ```
+  #TravisCI
+  [![Build Status](https://travis-ci.org/NataliaCichy/se_hello_printer_app.svg?branch=master)](https://travis-ci.org/NataliaCichy/se_hello_printer_app)
+
+  #StatusCake:
+  https://app.statuscake.com/button/index.php?Track=5961427&Days=1&Design=1
+      ```
