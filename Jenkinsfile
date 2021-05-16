@@ -26,6 +26,22 @@ pipeline {
           steps {
             sh 'make lint'
           }
+        post{
+          always{
+            cobertura autoUpdateHealth: false,
+                      autoUpdateStability: false,
+                      coderturaReportFile: 'coverage.xml',
+                      conditionalCoverageTargets: '70, 0, 0',
+                      failUnhealthy: false,
+                      failUnstable: false,
+                      lineCoverageTargets: '80, 0, 0',
+                      maxNumerOfBuilds: 0,
+                      methodCoverageTargets: '80, 0, 0',
+                      onlyStable: false,
+                      sourceEncoding: 'ASCII',
+                      zoomCoverageChart: false
+          }
+        }
         }
     }
 }
