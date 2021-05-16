@@ -30,7 +30,7 @@ pipeline {
           always{
             cobertura autoUpdateHealth: false,
                       autoUpdateStability: false,
-                      coderturaReportFile: 'coverage.xml',
+                      coberturaReportFile: 'coverage.xml',
                       conditionalCoverageTargets: '70, 0, 0',
                       failUnhealthy: false,
                       failUnstable: false,
